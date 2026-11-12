@@ -1,0 +1,17 @@
+[
+  {
+    "path": "fixtures/capacity.csv",
+    "sha256": "0ca87870024cf696268aa3e3f1a83eb5509acba279797ae85d22498a69c8c465",
+    "size_bytes": 81
+  },
+  {
+    "path": "fixtures/reservations.csv",
+    "sha256": "4ffd2f1f6bbc15f86c802fbeec66c10bcd93f7c7e9b96af8121c49328610b216",
+    "size_bytes": 115
+  },
+  {
+    "path": "fixtures/slices.json",
+    "sha256": "1b13ef3d2d968dac2857f444e482b04d8d51a84a53ea800d29ce5ce22bee41a6",
+    "size_bytes": 208
+  }
+]

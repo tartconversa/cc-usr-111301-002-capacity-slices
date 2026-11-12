@@ -1,0 +1,3 @@
+reservation,resource,job,revision,start,end,shares,withdrawn
+a,card1,A,1,0,10,3/5,False
+b,card1,B,1,5,15,2/5,False

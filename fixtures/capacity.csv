@@ -1,0 +1,2 @@
+capacity_id,resource,revision,start,end,shares,withdrawn
+c1,card1,1,0,10,1,False

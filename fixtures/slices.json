@@ -1,0 +1,7 @@
+{
+  "time_origin": "2026-11-10T23:59:55+08:00",
+  "interval": "[start,end)",
+  "day_timezone": "Asia/Shanghai",
+  "oversubscription_policy": "separate_anomaly_domain",
+  "share_encoding": "rational_string"
+}

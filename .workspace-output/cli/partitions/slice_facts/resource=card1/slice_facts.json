@@ -1,0 +1,125 @@
+[
+  {
+    "allocated_shares": "3/5",
+    "allocations": [
+      {
+        "job": "A",
+        "reservation": "a",
+        "share_seconds": "3",
+        "shares": "3/5"
+      }
+    ],
+    "capacity_shares": "1",
+    "domain": "main",
+    "duration_seconds": 5,
+    "end_epoch": 5,
+    "idle_shares": "2/5",
+    "lineage": {
+      "all_active_claims": [
+        "a",
+        "c1"
+      ],
+      "capacity_claim": "c1",
+      "capacity_revision": 1,
+      "capacity_source_line": 2,
+      "reservation_claims": [
+        "a"
+      ],
+      "reservation_revisions": {
+        "a": 1
+      },
+      "reservation_source_lines": {
+        "a": 2
+      }
+    },
+    "overcommit_shares": "0",
+    "resource": "card1",
+    "slice_id": "slc_660ba1eda37912b7",
+    "start_epoch": 0
+  },
+  {
+    "allocated_shares": "1",
+    "allocations": [
+      {
+        "job": "A",
+        "reservation": "a",
+        "share_seconds": "3",
+        "shares": "3/5"
+      },
+      {
+        "job": "B",
+        "reservation": "b",
+        "share_seconds": "2",
+        "shares": "2/5"
+      }
+    ],
+    "capacity_shares": "1",
+    "domain": "main",
+    "duration_seconds": 5,
+    "end_epoch": 10,
+    "idle_shares": "0",
+    "lineage": {
+      "all_active_claims": [
+        "a",
+        "b",
+        "c1"
+      ],
+      "capacity_claim": "c1",
+      "capacity_revision": 1,
+      "capacity_source_line": 2,
+      "reservation_claims": [
+        "a",
+        "b"
+      ],
+      "reservation_revisions": {
+        "a": 1,
+        "b": 1
+      },
+      "reservation_source_lines": {
+        "a": 2,
+        "b": 3
+      }
+    },
+    "overcommit_shares": "0",
+    "resource": "card1",
+    "slice_id": "slc_714624e43c67e93b",
+    "start_epoch": 5
+  },
+  {
+    "allocated_shares": "2/5",
+    "allocations": [
+      {
+        "job": "B",
+        "reservation": "b",
+        "share_seconds": "2",
+        "shares": "2/5"
+      }
+    ],
+    "capacity_shares": null,
+    "domain": "unknown",
+    "duration_seconds": 5,
+    "end_epoch": 15,
+    "idle_shares": null,
+    "lineage": {
+      "all_active_claims": [
+        "b"
+      ],
+      "capacity_claim": null,
+      "capacity_revision": null,
+      "capacity_source_line": null,
+      "reservation_claims": [
+        "b"
+      ],
+      "reservation_revisions": {
+        "b": 1
+      },
+      "reservation_source_lines": {
+        "b": 3
+      }
+    },
+    "overcommit_shares": "0",
+    "resource": "card1",
+    "slice_id": "slc_52c30cd36e88b77d",
+    "start_epoch": 10
+  }
+]

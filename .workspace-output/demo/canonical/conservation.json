@@ -1,0 +1,16 @@
+{
+  "reconciled_per_claim": true,
+  "claim_seconds_mismatch": {},
+  "domain_duration_seconds": {
+    "main": 10,
+    "anomaly": 0,
+    "unknown": 5
+  },
+  "domain_capacity_seconds": {
+    "main": "10",
+    "anomaly": "0",
+    "unknown": "0"
+  },
+  "identity_residual": "0",
+  "identity_holds": true
+}

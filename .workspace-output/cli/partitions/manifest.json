@@ -1,0 +1,17 @@
+{
+  "files": {
+    "allocation_facts.json": {
+      "sha256": "de7aa14ff084c1b67f48b3d197841093a48f0ebc8c2640a5116d13eeb7a0ad06"
+    },
+    "capacity_facts.json": {
+      "sha256": "e3a1937437f3b3bdd1e74c248158daf1a5149b2bad86c3d933b9711d2f72daa3"
+    }
+  },
+  "partitions": {
+    "card1": {
+      "path": "slice_facts/resource=card1/slice_facts.json",
+      "sha256": "5a52504008d19ae685e41e6da99aabf624e6a5da1f726bc2e4a713f96b67846e",
+      "slice_count": 3
+    }
+  }
+}

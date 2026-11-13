@@ -1,0 +1,34 @@
+[
+  {
+    "allocation_seconds": "3",
+    "day": "2026-11-10",
+    "domain": "main",
+    "job": "A",
+    "reservation": "a",
+    "resource": "card1"
+  },
+  {
+    "allocation_seconds": "3",
+    "day": "2026-11-11",
+    "domain": "main",
+    "job": "A",
+    "reservation": "a",
+    "resource": "card1"
+  },
+  {
+    "allocation_seconds": "2",
+    "day": "2026-11-11",
+    "domain": "main",
+    "job": "B",
+    "reservation": "b",
+    "resource": "card1"
+  },
+  {
+    "allocation_seconds": "2",
+    "day": "2026-11-11",
+    "domain": "unknown",
+    "job": "B",
+    "reservation": "b",
+    "resource": "card1"
+  }
+]

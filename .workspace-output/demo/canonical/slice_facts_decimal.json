@@ -1,0 +1,145 @@
+[
+  {
+    "slice_id": "slc_660ba1eda37912b7",
+    "resource": "card1",
+    "start_epoch": 0,
+    "end_epoch": 5,
+    "duration_seconds": 5,
+    "domain": "main",
+    "capacity_shares": "1",
+    "allocated_shares": "3/5",
+    "idle_shares": "2/5",
+    "overcommit_shares": "0",
+    "allocations": [
+      {
+        "job": "A",
+        "reservation": "a",
+        "shares": "3/5",
+        "share_seconds": "3",
+        "shares_decimal": "0.600000",
+        "share_seconds_decimal": "3.000000"
+      }
+    ],
+    "lineage": {
+      "capacity_claim": "c1",
+      "capacity_revision": 1,
+      "capacity_source_line": 2,
+      "reservation_claims": [
+        "a"
+      ],
+      "reservation_revisions": {
+        "a": 1
+      },
+      "reservation_source_lines": {
+        "a": 2
+      },
+      "all_active_claims": [
+        "a",
+        "c1"
+      ]
+    },
+    "capacity_shares_decimal": "1.000000",
+    "allocated_shares_decimal": "0.600000",
+    "idle_shares_decimal": "0.400000",
+    "overcommit_shares_decimal": "0.000000"
+  },
+  {
+    "slice_id": "slc_714624e43c67e93b",
+    "resource": "card1",
+    "start_epoch": 5,
+    "end_epoch": 10,
+    "duration_seconds": 5,
+    "domain": "main",
+    "capacity_shares": "1",
+    "allocated_shares": "1",
+    "idle_shares": "0",
+    "overcommit_shares": "0",
+    "allocations": [
+      {
+        "job": "A",
+        "reservation": "a",
+        "shares": "3/5",
+        "share_seconds": "3",
+        "shares_decimal": "0.600000",
+        "share_seconds_decimal": "3.000000"
+      },
+      {
+        "job": "B",
+        "reservation": "b",
+        "shares": "2/5",
+        "share_seconds": "2",
+        "shares_decimal": "0.400000",
+        "share_seconds_decimal": "2.000000"
+      }
+    ],
+    "lineage": {
+      "capacity_claim": "c1",
+      "capacity_revision": 1,
+      "capacity_source_line": 2,
+      "reservation_claims": [
+        "a",
+        "b"
+      ],
+      "reservation_revisions": {
+        "a": 1,
+        "b": 1
+      },
+      "reservation_source_lines": {
+        "a": 2,
+        "b": 3
+      },
+      "all_active_claims": [
+        "a",
+        "b",
+        "c1"
+      ]
+    },
+    "capacity_shares_decimal": "1.000000",
+    "allocated_shares_decimal": "1.000000",
+    "idle_shares_decimal": "0.000000",
+    "overcommit_shares_decimal": "0.000000"
+  },
+  {
+    "slice_id": "slc_52c30cd36e88b77d",
+    "resource": "card1",
+    "start_epoch": 10,
+    "end_epoch": 15,
+    "duration_seconds": 5,
+    "domain": "unknown",
+    "capacity_shares": null,
+    "allocated_shares": "2/5",
+    "idle_shares": null,
+    "overcommit_shares": "0",
+    "allocations": [
+      {
+        "job": "B",
+        "reservation": "b",
+        "shares": "2/5",
+        "share_seconds": "2",
+        "shares_decimal": "0.400000",
+        "share_seconds_decimal": "2.000000"
+      }
+    ],
+    "lineage": {
+      "capacity_claim": null,
+      "capacity_revision": null,
+      "capacity_source_line": null,
+      "reservation_claims": [
+        "b"
+      ],
+      "reservation_revisions": {
+        "b": 1
+      },
+      "reservation_source_lines": {
+        "b": 3
+      },
+      "all_active_claims": [
+        "b"
+      ]
+    },
+    "capacity_shares_decimal": "None",
+    "allocated_shares_decimal": "0.400000",
+    "idle_shares_decimal": "None",
+    "overcommit_shares_decimal": "0.000000"
+  }
+]

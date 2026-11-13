@@ -1,0 +1,26 @@
+[
+  {
+    "allocated_seconds": "3",
+    "allocated_seconds_known_domain": "3",
+    "anomaly_domain_seconds": 0,
+    "capacity_seconds": "5",
+    "day": "2026-11-10",
+    "idle_seconds": "2",
+    "main_domain_seconds": 5,
+    "overcommit_seconds": "0",
+    "resource": "card1",
+    "unknown_domain_seconds": 0
+  },
+  {
+    "allocated_seconds": "5",
+    "allocated_seconds_known_domain": "5",
+    "anomaly_domain_seconds": 0,
+    "capacity_seconds": "5",
+    "day": "2026-11-11",
+    "idle_seconds": "0",
+    "main_domain_seconds": 5,
+    "overcommit_seconds": "0",
+    "resource": "card1",
+    "unknown_domain_seconds": 5
+  }
+]
